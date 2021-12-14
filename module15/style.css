@@ -1,0 +1,126 @@
+* { box-sizing: border-box; }
+
+header, nav, main, footer { display: block;}
+
+body { background-image: url(image/background.gif);
+       	color: #221811;
+  	font-family: Verdana, Arial, sans-serif;
+  }
+#wrapper { 
+              min-width: 900px;
+  	      max-width: 1280px;
+              margin-left: auto;
+              margin-right: auto;
+              width: 80%;
+              box-shadow: 5px 5px 5px #828282;
+	      background-color: #231814; }
+
+header { background-color: #d2b48c;
+            height: 150px;
+  	    background-image: url(image/javajamlogo.jpg);
+  	    background-repeat: no-repeat; }
+
+h1 { padding-top: 45px;
+     	padding-left: 220px;
+  	font-size: 3em; }
+
+h2 { padding-left: 3em;
+        padding-right: 2em; }
+
+h3 { padding-left: 3em;
+        padding-right: 2em; }
+
+h4 { background-color: #d2b48c;
+     	font-size: 1.2em;
+  	padding-left: 10em;
+  	padding-bottom: 0;
+        text-transform: uppercase;
+	border-bottom: solid;}
+
+.floatleft {
+        float: left;
+        padding-right: 2em;
+	padding-bottom: 2em; }
+
+nav {   text-align: center;
+  	width: 200px;
+	float: left;
+  	font-size: 1.5em;
+  	font-weight: 700; 
+	padding-top: 10px; }
+
+nav a { text-decoration: none;}
+
+nav a:link { color: #fef6c2;}
+
+nav a:visited { color: #d2b48c; }
+
+nav a:hover { color: #cc9933; }
+
+nav ul { list-style-type: none; padding-left: 0;}
+
+main {   padding-right: 0px;
+          padding-left: 0px;
+          padding-top: 0px;
+          margin-left: 200px;
+          background-color: #fef6c2;
+          padding-bottom: 2em;
+          display: block;}
+
+main h2, main h3, main h4, main p, main div, main ul, main dl { padding-left: 3em; padding-right: 2em;}
+
+footer { background-color: #d2b48c;
+	    font-size: .60em;
+	    font-style: italics;
+	    text-align: center;
+	    padding-bottom: 10px;
+	    border-top: 2px solid #221811; }
+
+.details { padding-left: 20%;
+           padding-right: 20%;
+	   overflow: auto; }
+
+img { padding-left: 10px;
+         padding-right: 10px; }
+
+.heroroad { background-image: url(image/heroroad.jpg);
+               background-repeat: no-repeat;
+               background-size: 100%;
+               height: 250px; }
+
+.heromugs { background-image: url(image/heromugs.jpg);
+               background-repeat: no-repeat;
+               background-size: 100%;
+               height: 250px; }
+
+.heroguitar { background-image: url(image/heroguitar.jpg);
+                 background-repeat: no-repeat;
+                 background-size: 100%;
+                 height: 250px; }
+
+table { width: 90%;
+	   margin:auto;
+           border-spacing: 0;
+	   background-color:#fef6c2; }
+
+th, td { padding: 10px; }
+
+tr:nth-of-type(odd) { background-color: #d2b48e; }
+
+form { padding: 2em; }
+
+label { float: left;
+	   display: block; 
+	   text-align: right;
+	   width: 8em;
+	   padding-right: 1em; }
+
+input, textarea { display: block;
+	  	     margin-bottom: 1em; }
+
+.mySubmit { margin-left: 9.5em; }
+
+.herojobs { background-image: url(image/herojobs.jpg);
+                 background-repeat: no-repeat;
+                 background-size: 100% 100%;
+                 height: 250px; }
