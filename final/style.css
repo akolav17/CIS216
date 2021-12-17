@@ -185,11 +185,6 @@ figcaption {
 }
 
 
-.homeimage {
-    width: 50%;
-}
-
-
 
 details > summary {
     padding: 4px;
@@ -210,13 +205,8 @@ details > summary {
   }
 
 
-.form-container {
-    display: block;
-    width: auto;
-    
  form {
     font-family: Arial;
-     display: block;
   }
   
 
