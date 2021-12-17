@@ -216,9 +216,13 @@ form {
     margin-right: auto;}
 }
 
-
+.form-container {
+    display block;
+    width: auto;
+    
  form {
     font-family: Arial;
+     display: block;
   }
   
 
