@@ -209,15 +209,9 @@ details > summary {
     border-collapse: collapse;
   }
 
-@media only screen and (max-width: 800px) {
-form {
-    width:95%; 
-    margin-left: auto;
-    margin-right: auto;}
-}
 
 .form-container {
-    display block;
+    display: block;
     width: auto;
     
  form {
